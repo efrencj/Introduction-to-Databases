@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65325CB0-C0F1-33E7-9929-15C71A12BEA1" containerWithKeyObject="DA2D3C30-59E6-080B-0DC3-7E088B232E81" localFKIndex="1CB5E552-AE5F-56D1-8469-D6C0DE90AFD9" name="involucrar_sinistre_FK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<referredTableLongName>sinistre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C24D1F6-CBA0-322B-51C5-7ABFC375FC4D</referredTableID>
+<keyObject>81E18C11-B3CC-31DD-6FF3-58E983BC3CF8</keyObject>
+<referredKeyID>81E18C11-B3CC-31DD-6FF3-58E983BC3CF8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sinistre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

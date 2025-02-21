@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="48EDA9F6-85A0-079E-3073-B128C0A80592" name="cotxe" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0145BE-2089-B292-C005-0D5692E68AC8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9E84A8E4-AA3D-DDAF-0093-38CE01BAFAC0" name="sinistre" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0145BE-2089-B292-C005-0D5692E68AC8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D02AD1C5-AD59-9BB3-E30F-9209C3034D38" name="propietari" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6A0145BE-2089-B292-C005-0D5692E68AC8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D" name="involucrar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6A0145BE-2089-B292-C005-0D5692E68AC8" propertySourceId="48EDA9F6-85A0-079E-3073-B128C0A80592" propertyTargetId="9E84A8E4-AA3D-DDAF-0093-38CE01BAFAC0"/>
+   <object objectType="Relation" objectID="F84CF2C3-54E2-859B-6B1D-0F99A848750A" name="propietat" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6A0145BE-2089-B292-C005-0D5692E68AC8" propertySourceId="48EDA9F6-85A0-079E-3073-B128C0A80592" propertyTargetId="D02AD1C5-AD59-9BB3-E30F-9209C3034D38"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

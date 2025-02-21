@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFE3F532-F21E-8897-8A45-E409B27F2609" name="ALBUM_MUSICAL">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:27:19 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ALBUM" id="3A94CD3E-169B-F524-1AE8-C32418B668A3">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:27:29 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20167748-6D6C-2092-EF76-99CE2D17AC88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITOL_ALBUM" id="623E2D8A-41A2-B15B-B208-70D69AB89EE0">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:27:29 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_LLANSAMENT" id="C8EF0729-141C-AA10-C3BE-736C6F91B126">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:27:50 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>824C38CA-AC60-A858-1F26-1A7CD3A408F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D50601F-6F63-6AC7-938F-E75CB194A8BF" name="ALBUM_MUSICAL PK">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:27:36 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A94CD3E-169B-F524-1AE8-C32418B668A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

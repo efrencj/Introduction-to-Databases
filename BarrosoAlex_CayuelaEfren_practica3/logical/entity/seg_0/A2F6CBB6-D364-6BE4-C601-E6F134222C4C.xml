@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2F6CBB6-D364-6BE4-C601-E6F134222C4C" name="USUARI">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:34 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USUARI" id="6CD5B80B-AF3C-6D91-9AF0-718699ACB79F">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:38 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM" id="C4283C57-9C31-6FEA-A40E-197149AC41B6">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:38 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADRESA" id="3E21F6D8-C2EC-2237-9EC5-03350334728F">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:38 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFON" id="95F031BB-0EF7-BFBA-A9E6-FA06EF9078C0">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:38 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20167748-6D6C-2092-EF76-99CE2D17AC88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="686968A3-6844-803D-A5FB-91F1E5FFD66E">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:24:14 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1B495D7-9488-1087-EB77-9F9A2AA15CEB" name="USUARI PK">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:23:51 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CD5B80B-AF3C-6D91-9AF0-718699ACB79F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="72A85A61-B1FC-D328-04FE-A3886D937EAB" name="EMAIL_UNIQUE">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:35:02 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<newElementsIDs>686968A3-6844-803D-A5FB-91F1E5FFD66E</newElementsIDs>
+<usedAttributes>
+<attributeRef>686968A3-6844-803D-A5FB-91F1E5FFD66E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

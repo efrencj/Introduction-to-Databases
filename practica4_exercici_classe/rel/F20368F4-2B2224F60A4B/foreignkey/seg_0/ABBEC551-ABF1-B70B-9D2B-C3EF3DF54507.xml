@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABBEC551-ABF1-B70B-9D2B-C3EF3DF54507" containerWithKeyObject="DA2D3C30-59E6-080B-0DC3-7E088B232E81" localFKIndex="A407DDF3-4159-8B3F-62BB-E7A5D976EA24" name="involucrar_cotxe_FK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<referredTableLongName>cotxe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>974AD1DB-1FF0-ED39-FA85-FE86D84E40B5</referredTableID>
+<keyObject>88051F6C-A718-6929-DBA3-86F0E45384EA</keyObject>
+<referredKeyID>88051F6C-A718-6929-DBA3-86F0E45384EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cotxe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

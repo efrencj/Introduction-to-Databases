@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA2D3C30-59E6-080B-0DC3-7E088B232E81" name="involucrar">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cotxe_id_cotxe" id="48EBF2CF-4663-47CD-455B-5271687AE755">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABBEC551-ABF1-B70B-9D2B-C3EF3DF54507" referredColumn="AD15C4E7-3AD2-9F97-74BF-ECA25EE2C011"/>
+</associations>
+</Column>
+<Column name="sinistre_id_sinistre" id="0553588D-77BB-BEC1-8FDD-0C7FB56D5FAE">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65325CB0-C0F1-33E7-9929-15C71A12BEA1" referredColumn="67942CC5-669D-59E0-E901-129EFB7AD286"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C62F1EE-B219-A371-B3A4-4E4D8923B30F" name="involucrar_PK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EBF2CF-4663-47CD-455B-5271687AE755"/>
+<colUsage columnID="0553588D-77BB-BEC1-8FDD-0C7FB56D5FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A407DDF3-4159-8B3F-62BB-E7A5D976EA24" name="involucrar_cotxe_FK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EBF2CF-4663-47CD-455B-5271687AE755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CB5E552-AE5F-56D1-8469-D6C0DE90AFD9" name="involucrar_sinistre_FK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0553588D-77BB-BEC1-8FDD-0C7FB56D5FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
