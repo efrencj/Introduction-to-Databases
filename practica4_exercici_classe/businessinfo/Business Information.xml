@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="81F333EF-9654-E250-A637-E675316A78CA">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:45:37 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

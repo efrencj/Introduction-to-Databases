@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74E13DA2-A7A9-72DC-D16D-2CE5E6D79D7E" name="ARTISTA">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:15 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOM" id="93168D8C-20AC-215D-E361-F9D46E16E080">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:21 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BIOGRAFIA" id="65678A48-0616-7BAE-CD38-43BD30E7E694">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:21 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAIS_ORIGEN" id="9EA19597-91B8-58AA-5477-591AB75943E2">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:21 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77E36199-4EF7-EF60-1DA9-5F319BE09AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSIFICACIO" id="3DF8CD8D-28C6-BAC1-070B-CB0AC418B7F3">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:21 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20167748-6D6C-2092-EF76-99CE2D17AC88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB4F1224-D3BA-8C36-3530-DFDD4B0E11CF" name="ARTISTA PK">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:22:24 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93168D8C-20AC-215D-E361-F9D46E16E080</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

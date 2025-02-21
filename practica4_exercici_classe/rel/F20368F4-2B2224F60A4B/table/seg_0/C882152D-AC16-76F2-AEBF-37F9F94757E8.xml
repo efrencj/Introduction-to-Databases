@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C882152D-AC16-76F2-AEBF-37F9F94757E8" name="propietari">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>D02AD1C5-AD59-9BB3-E30F-9209C3034D38</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nif" id="1C568FB1-C6FC-5EE4-BBD7-DFFA96E9B0EE">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>CC41DFC0-5318-049F-1781-B315A62F98B2</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="5AA47C0D-AD9E-BBAA-1DE6-2999825CCF1C">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>A7DFADC6-8B7E-4E38-CCE9-3A899B04456D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cognom" id="372E4FFE-2743-9EB4-D72C-7A26F1ACFA61">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>8A6469AF-2552-6B27-0D91-DF43E844ED96</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E2378B-88FF-C324-AA31-AA9BE7E57EB0" name="propietari_PK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>08646FEF-7590-3E02-8B5E-7F4BDBF836D9</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C568FB1-C6FC-5EE4-BBD7-DFFA96E9B0EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

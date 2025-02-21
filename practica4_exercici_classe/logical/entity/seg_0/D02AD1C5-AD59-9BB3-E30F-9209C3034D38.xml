@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D02AD1C5-AD59-9BB3-E30F-9209C3034D38" name="propietari">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:49:29 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nif" id="CC41DFC0-5318-049F-1781-B315A62F98B2">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:49:36 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4D84905D-CEE6-14BA-ED60-DEEB2C2AD7A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="A7DFADC6-8B7E-4E38-CCE9-3A899B04456D">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:49:44 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4D84905D-CEE6-14BA-ED60-DEEB2C2AD7A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cognom" id="8A6469AF-2552-6B27-0D91-DF43E844ED96">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:49:53 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4D84905D-CEE6-14BA-ED60-DEEB2C2AD7A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08646FEF-7590-3E02-8B5E-7F4BDBF836D9" name="propietari PK">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:49:42 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC41DFC0-5318-049F-1781-B315A62F98B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

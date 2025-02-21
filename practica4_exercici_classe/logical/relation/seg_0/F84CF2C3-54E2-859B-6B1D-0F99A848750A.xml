@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="propietat" directorySegmentName="seg_0" id="F84CF2C3-54E2-859B-6B1D-0F99A848750A">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:51:02 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<sourcePk>B6ECA111-238B-A99D-A80C-63A908D3BF0F</sourcePk>
+<targetPk>08646FEF-7590-3E02-8B5E-7F4BDBF836D9</targetPk>
+<identifying>false</identifying>
+<nameOnSource>es propietat</nameOnSource>
+<nameOnTarget>es propietari</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>48EDA9F6-85A0-079E-3073-B128C0A80592</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D02AD1C5-AD59-9BB3-E30F-9209C3034D38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

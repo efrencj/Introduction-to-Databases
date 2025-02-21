@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="974AD1DB-1FF0-ED39-FA85-FE86D84E40B5" name="cotxe">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>48EDA9F6-85A0-079E-3073-B128C0A80592</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cotxe" id="AD15C4E7-3AD2-9F97-74BF-ECA25EE2C011">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>E7C327B0-A99C-473E-56DB-364C1F764D26</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="CE2ED750-A0E6-7EC6-D127-25DE7F70C9D1">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>A2BE550F-7540-AFFE-177D-98146ECA2DAF</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_matriculacio" id="24EE926A-FC41-5CF5-6544-CCDD203459EE">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>06038AAF-DAE4-1D3C-9D59-C0A0C1C4AA3F</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="places" id="1134E501-C875-E120-96DF-B33409F06196">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>91E35B9E-E971-BF13-7BEB-E82DDCE23386</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servei_public" id="D35F3861-E624-8289-DB66-90C83E238345">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>AB24C326-D7A6-75D6-5C20-39364363982B</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="propietari_nif" id="29F3EAEB-E9FC-DA62-1EBE-8D2FEC946F68">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>16F84D1C-2FC7-FDAB-D4B0-4EB1F84B5B3B</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACCABE72-EC81-7393-2B36-8CE9B7A6426D" referredColumn="1C568FB1-C6FC-5EE4-BBD7-DFFA96E9B0EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88051F6C-A718-6929-DBA3-86F0E45384EA" name="cotxe_PK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>B6ECA111-238B-A99D-A80C-63A908D3BF0F</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD15C4E7-3AD2-9F97-74BF-ECA25EE2C011"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8289FE7-CAF9-AA8B-AB75-F2A0B254ADC7" name="cotxe_matricula_UN">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>EB557CE0-0898-37F6-0A5A-B4C89EE411E2</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE2ED750-A0E6-7EC6-D127-25DE7F70C9D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB434490-57AD-26C4-ED42-A66BA82054D1" name="cotxe_propietari_FK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>F84CF2C3-54E2-859B-6B1D-0F99A848750A</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29F3EAEB-E9FC-DA62-1EBE-8D2FEC946F68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

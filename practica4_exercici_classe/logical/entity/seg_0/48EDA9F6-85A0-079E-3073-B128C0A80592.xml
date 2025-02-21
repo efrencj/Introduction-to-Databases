@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48EDA9F6-85A0-079E-3073-B128C0A80592" name="cotxe">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:46:45 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cotxe" id="E7C327B0-A99C-473E-56DB-364C1F764D26">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:46:53 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FE36408D-F8C6-55EB-9DF7-954C879B06E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="A2BE550F-7540-AFFE-177D-98146ECA2DAF">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:47:16 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4D84905D-CEE6-14BA-ED60-DEEB2C2AD7A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_matriculacio" id="06038AAF-DAE4-1D3C-9D59-C0A0C1C4AA3F">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:48:03 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>649E40BC-247B-0B5D-7E7B-0990F4A2992D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="places" id="91E35B9E-E971-BF13-7BEB-E82DDCE23386">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:48:18 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FE36408D-F8C6-55EB-9DF7-954C879B06E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servei_public" id="AB24C326-D7A6-75D6-5C20-39364363982B">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:48:24 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nif" id="16F84D1C-2FC7-FDAB-D4B0-4EB1F84B5B3B">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 08:15:13 UTC</createdTime>
+<generatorID>F84CF2C3-54E2-859B-6B1D-0F99A848750A</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<referedAttribute>CC41DFC0-5318-049F-1781-B315A62F98B2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>4D84905D-CEE6-14BA-ED60-DEEB2C2AD7A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6ECA111-238B-A99D-A80C-63A908D3BF0F" name="cotxe PK">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:47:13 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7C327B0-A99C-473E-56DB-364C1F764D26</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EB557CE0-0898-37F6-0A5A-B4C89EE411E2" name="UK_Matricula">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:47:32 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<newElementsIDs>A2BE550F-7540-AFFE-177D-98146ECA2DAF</newElementsIDs>
+<usedAttributes>
+<attributeRef>A2BE550F-7540-AFFE-177D-98146ECA2DAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

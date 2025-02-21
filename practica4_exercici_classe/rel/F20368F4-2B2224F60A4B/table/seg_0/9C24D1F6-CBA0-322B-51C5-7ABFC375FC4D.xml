@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C24D1F6-CBA0-322B-51C5-7ABFC375FC4D" name="sinistre">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>9E84A8E4-AA3D-DDAF-0093-38CE01BAFAC0</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sinistre" id="67942CC5-669D-59E0-E901-129EFB7AD286">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>DED8F9FD-0AB6-D3C3-C1DB-6D029CFC3828</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_sinistre" id="84796EB6-4F52-E579-0DD4-D3D1546C9927">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>E7CB63ED-CF63-86D6-93BC-EA4DC25E6CFC</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lloc" id="2B3417D5-43F2-8E0C-A9F3-5C8071B5EBB2">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>4E463660-1CCD-F1BE-A50C-96E437B86203</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vixtimes" id="E29F3CF4-6ABF-83F7-F583-911F9EECC8C4">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>FB5504CC-5ECC-5FB8-DBBC-C8E96F47438D</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="informe" id="CFCFB52A-CE28-FEE4-AA2C-914C1F01775C">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>E29D5AC8-539F-9986-A755-1F07590190F5</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81E18C11-B3CC-31DD-6FF3-58E983BC3CF8" name="sinistre_PK">
+<createdBy>efren</createdBy>
+<createdTime>2024-06-06 10:28:45 UTC</createdTime>
+<generatorID>7B7CF456-5F46-B52B-DF31-7288D58A1BFE</generatorID>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67942CC5-669D-59E0-E901-129EFB7AD286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

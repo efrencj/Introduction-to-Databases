@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="involucrar" directorySegmentName="seg_0" id="6B7DB128-01F8-DF41-D7A3-1AD8E2A1506D">
+<createdBy>laura.beltran</createdBy>
+<createdTime>2023-06-11 07:51:55 UTC</createdTime>
+<ownerDesignName>practica4_exercici_classe</ownerDesignName>
+<engineerTo>
+<item key="F20368F4-93CC-192D-633E-2B2224F60A4B" value="true"/>
+</engineerTo>
+<sourcePk>B6ECA111-238B-A99D-A80C-63A908D3BF0F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>es involucrcat</nameOnSource>
+<nameOnTarget>involucra</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>48EDA9F6-85A0-079E-3073-B128C0A80592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E84A8E4-AA3D-DDAF-0093-38CE01BAFAC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

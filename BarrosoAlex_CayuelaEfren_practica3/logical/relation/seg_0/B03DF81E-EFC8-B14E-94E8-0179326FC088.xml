@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CANTAT" directorySegmentName="seg_0" id="B03DF81E-EFC8-B14E-94E8-0179326FC088">
+<createdBy>alexb</createdBy>
+<createdTime>2024-05-30 10:54:28 UTC</createdTime>
+<ownerDesignName>BarrosoAlex_CayuelaEfren_practica3</ownerDesignName>
+<engineerTo>
+<item key="A75EFEBD-53EC-FAA9-E3C8-462D0F8C2E6C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>FETA</nameOnSource>
+<nameOnTarget>CANTA</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>306DCE40-BD29-8315-8E80-D876ED199DE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74E13DA2-A7A9-72DC-D16D-2CE5E6D79D7E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
